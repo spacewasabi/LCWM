@@ -1,0 +1,25 @@
+Nos ordinateurs possèdent plusieurs types de mémoire. 
+De la plus rapide à la plus lente : les registres, la mémoire cache, la mémoire vive et le disque dur.
+
+Pour « retenir » des informations, notre programme a besoin de stocker des données dans la mémoire. 
+Il utilise pour cela la mémoire vive (ou RAM). 
+Les registres et la mémoire cache sont aussi utilisés pour augmenter les performances, mais cela fonctionne automatiquement, nous n'avons pas à nous en préoccuper.
+
+Dans notre code source, les variables sont des données stockées temporairement en mémoire vive. 
+La valeur de ces données peut changer au cours du programme.
+
+À l'opposé, on parle de constantes pour des données stockées en mémoire vive. 
+La valeur de ces données ne peut pas changer.
+
+Il existe plusieurs types de variables, qui occupent plus ou moins d'espace en mémoire. 
+Certains types comme 'int' sont prévus pour stocker des nombres entiers, tandis que d'autres comme 'double' stockent des nombres décimaux.
+
+Les caractères sont représentés par des nombres, par exemple la lettre A majuscule est représentée par le nombre 65, B par 66, C par 67, etc.
+
+Les chaînes de caractères sont des tableaux, l'index correspondant à un caractère de la chaîne.
+
+La méthode '#include' permet d'inclure des librairies, c-à-d des groupes de fonctions déclarées dans un fichier (de type binaire).
+
+La librairie <stdio.h> permet, une fois incluse, de gérer les méthodes d'input / output, avec par exemple :
+  - la fonction 'printf' qui permet d'afficher quelque chose dans la console
+  - la fonction 'scanf' qui permet de demander à l'utilisateur de saisir un nombre
