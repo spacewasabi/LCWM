@@ -9,6 +9,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
  * Attention :
@@ -21,14 +22,23 @@
 
 int main(int argc, char *argv[]) // Équivalent de int main()
 {
-  int pointsDeVies; // Déclaration d'une variable unique
-  int niveau, classe, equipementMainDroite, equipementMainGauche; // Déclaration de plusieurs variables
-  pointsDeVies = 10; // Affectation d'une valeur à la variable
-  niveau = 1;
-  classe = "guerrier";
-  equipementMainDroite = "epee";
-  equipementMainGauche = "bouclier";
-  int villeDepart = "ville1"; // Affectation de valeur lors de la déclaration (procédé conseillé)
-     
+  int pointsDeVies;                  // Déclaration d'une variable unique
+  int niveau, pointsDeMana;          // Déclaration de plusieurs variables
+  pointsDeVies = 10;                 // Affectation d'une valeur à la variable
+  int villeDepart = "ville1";        // Affectation d'une valeur dès la déclaration de la variable (procédé conseillé)
+  const int POINTS_DE_VIE_INIT = 10; // Constantes
+  const int NIVEAU_INIT = 1;
+  niveau = NIVEAU_INIT;
+  /**
+   * Les chaînes de caractères sont des tableaux, 
+   * chaque index correspond à un caractère.
+   * Ainsi, le "g" de "guerrier" correspond à classe[0].
+   */
+  char classe[] = "guerrier";
+  char equipementMainDroite[] = "epee";
+  char equipementMainGauche[] = "bouclier";
+
+  printf("Vous etes un %s de niveau %d \n Vous avez %dPV et etes equipe avec une %s et un %s", classe, niveau, pointsDeVies, equipementMainDroite, equipementMainGauche);
+
   return 0;
 }
