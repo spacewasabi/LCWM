@@ -38,6 +38,12 @@ int main(int argc, char *argv[]) // Équivalent de int main()
   char equipementMainDroite[] = "epee";
   char equipementMainGauche[] = "bouclier";
 
+  /**
+   * % permet d'appeler une variable dans un printf
+   * %d sera remplacé par une variable à valeur numérique.
+   * %c sera remplacé par une variable à valeur alphanumérique (a-A...z-Z)
+   * %s sera remplacé par une variable contenant une chaîne de charactère
+   */
   printf("Vous etes un %s de niveau %d \n Vous avez %dPV et etes equipe avec une %s et un %s", classe, niveau, pointsDeVies, equipementMainDroite, equipementMainGauche);
 
   return 0;
