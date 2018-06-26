@@ -11,10 +11,10 @@
 
 int main()
 {
-  int age = 0; // On initialise la variable à 0
+  int age = 0;
 
   printf("Quel age avez-vous ? ");
-  scanf("%d", &age); // On demande d'entrer l'âge avec scanf
+  scanf("%d", &age); 
   printf("Ah ! Vous avez donc %d ans !\n", age);
   if (age >= 18)
   {
