@@ -19,13 +19,13 @@ Most comments / explanations are in french (since I'm learning from a french tut
 
 ## Tools
 
-- text-editor : Visual Studio Code.
-- compiler : brapifra.c-compiler - VSC extension.
+- text-editor : [Visual Studio Code](https://code.visualstudio.com/).
+- compiler : [brapifra.c-compiler](https://marketplace.visualstudio.com/items?itemName=brapifra.c-compiler) - VSC extension.
 
 ## Alternative
 
-- text-editor : vim (++) / emacs / nano
-- compiler : gcc
+- text-editor : [vim](https://www.vim.org/) (++) / [emacs](https://www.gnu.org/software/emacs/) / [nano](https://www.nano-editor.org/)
+- compiler : [gcc](https://gcc.gnu.org/)
 
 ## Courses & tutorials used
 
