@@ -32,3 +32,12 @@ Most comments / explanations are in french (since I'm learning from a french tut
 - [CalebTheVideoMaker's youtube tutorial](https://www.youtube.com/playlist?list=PL_c9BZzLwBRKKqOc9TJz1pP0ASrxLMtp2)
 - [Open Classroom - french course](https://openclassrooms.com/courses/apprenez-a-programmer-en-c-)
 - [Interactive tutorial](http://www.learn-c.org/)
+
+## How to contribute
+
+You want to help me get better at C? Here's how you can help :
+
+- Fork this repo and create a new branch
+- Create a new "exercise" folder
+- Add a C file with either : a comment asking me to write a program or a non-working program for me to fix
+- Once I'm done, you'll be able to correct the exercise and/or explain how you would have done it.
