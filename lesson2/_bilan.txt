@@ -1,0 +1,8 @@
+L'ordinateur est donc une grosse machine à calcul.
+Les calculs sont simples : additions, soustractions, multiplications, divisions, restes (ou modulo)...
+Les calculs de base peuvent être écris de manière abrégées et ainsi ne pas avoir à redéfinir de variable.
+Les calculs plus compliqués (aussi appelés fonctions ou algorithmes) doivent être "programmés", 
+c'est-à-dire que l'on doit expliquer à la machine les différentes étapes nécessaires à son calcul en utilisant les méthodes de base.
+
+Cependant il n'est pas nécessaire de réinventer la roue à chaque fois.
+On peut importer des librairies qui sont des ensembles de fonctions que l'on peut réutiliser sans avoir à les redéfinir.
