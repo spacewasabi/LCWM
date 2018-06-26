@@ -2,6 +2,11 @@
 
 Learn C With Me
 
+## What is this
+
+A repo where I will put source code from my C exercises.
+Most comments / explanations are in french (since I'm learning from a french tutorial).
+
 ## Lessons
 
 - hello : including libraries and calling functions
@@ -16,3 +21,14 @@ Learn C With Me
 
 - text-editor : Visual Studio Code.
 - compiler : brapifra.c-compiler - VSC extension.
+
+## Alternative
+
+- text-editor : vim (++) / emacs / nano
+- compiler : gcc
+
+## Courses & tutorials used
+
+- [CalebTheVideoMaker's youtube tutorial](https://www.youtube.com/playlist?list=PL_c9BZzLwBRKKqOc9TJz1pP0ASrxLMtp2)
+- [Open Classroom - french course](https://openclassrooms.com/courses/apprenez-a-programmer-en-c-)
+- [Interactive tutorial](http://www.learn-c.org/)
