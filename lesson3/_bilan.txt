@@ -1,0 +1,7 @@
+Les booléens n'existent pas en C, il faut les définir en temps que constantes en début de fichier.
+
+Les conditions permettent de n'exécuter un bloc de code que dans un ou plusieurs cas précis.
+
+On peut tester une condition de plusieurs manières :
+- à l'aide d'un "if ... else if ... else"
+- à l'aide d'un switch 
