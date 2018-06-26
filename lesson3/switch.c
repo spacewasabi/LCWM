@@ -10,9 +10,11 @@ int main()
 {
   int order = 0; 
 
-  printf("Bienvenue chez McDonaldDuck !\nEntrez le chiffre correspondant au menu choisi.\n");
-  printf("==MENU==\n1. Big Mac\n2. Nuggets\n3. Mc Bacon\n4. Royal Cheese");
-  scanf("%d", &order); 
+  printf("Bienvenue chez McDonaldDuck !\n\n");
+  printf("==MENU==\n1. Big Mac\n2. Nuggets\n3. Mc Bacon\n4. Royal Cheese\n\n");
+  printf("Entrez le chiffre correspondant au menu choisi : ");
+  scanf("%d", &order);
+  printf("\n");
   switch (order)
   {
   case 1:
@@ -31,4 +33,5 @@ int main()
     printf("ERREUR : le numero que vous avez fourni ne correspond a aucun menu.\n");
     break;
   }
+  printf("Bon appetit !\n");
 }
