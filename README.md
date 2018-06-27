@@ -34,6 +34,10 @@ I'll probably translate everything later.
 - **while** & **do_while** : basic loops
 - **for** : basic loop where we know how many time we want the code to be executed
 
+### Lesson 5
+
+- How to organize our C programs
+
 ## Exercises
 
 - **plusOrMinus** : using what have been learned from lessons 1 to 4.
