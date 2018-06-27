@@ -21,7 +21,7 @@ int mult(int a, int b)
   return a * b;
 }
 
-int divide(int a, int b)
+int divide(double a, double b)
 {
   return a / b;
 }
@@ -38,14 +38,14 @@ int chooseCalc()
     printf("3. Multiply the numbers\n");
     printf("4. Divide the numbers\n");
     printf("5. Cancel & quit app\n");
-    printf("Input the chosen number : ");
+    printf("Input the chosen option's number : ");
     scanf("%d", &chosedCalc);
   }
 
   return chosedCalc;
 }
 
-int main(int argc, char *argv[])
+int main()
 {
   int result = 0, numberOne = 0, numberTwo = 0;
   char chosed = '0';
