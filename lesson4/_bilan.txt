@@ -1,0 +1,9 @@
+Les boucles sont très utiles en algorithmie. 
+Elles permettent d'automatiser des séries de calculs au sein d'une fonction.
+
+Il existe différentes boucles dont le WHILE, le DO WHILE et le FOR.
+Le choix de la boucle à utiliser dépend en grande partie des informations dont on dispose.
+Les boucles ont besoin de paramètres différents.
+Ainsi si l'on connait le nombre d'itérations (de répétitions) on utilisera un FOR
+sinon on utilise un DO WHILE si l'on veut que le code s'exécute au moins une fois
+(et ce indépendamment de la condition) ou un WHILE dans le cas contraire.
