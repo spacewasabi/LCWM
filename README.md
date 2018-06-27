@@ -32,6 +32,11 @@ I'll probably translate everything later.
 ### Lesson 4
 
 - **while** & **do_while** : basic loops
+- **for** : basic loop where we know how many time we want the code to be executed
+
+## Exercises
+
+- **plusOrMinus** : using what have been learned from lessons 1 to 4.
 
 ## Tools
 
