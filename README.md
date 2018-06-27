@@ -36,7 +36,7 @@ I'll probably translate everything later.
 
 ### Lesson 5
 
-- How to organize our C programs
+- How to organize our C programs (one file)
 
 ## Exercises
 
