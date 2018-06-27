@@ -21,10 +21,9 @@
 int main() 
 {
   const int MAX = 100, MIN = 1, BASEHP = 10;
-  int answer = 0, hp = 0, number;
+  int answer = 0, hp = 0, number = 0, counter = 0;
   srand(time(NULL));
   answer = (rand() % (MAX - MIN + 1)) + MIN;
-  printf("HP : %d\n", BASEHP);
   for (hp = BASEHP ; hp > 0 ; hp--)
   {
     printf("HP left : %d\n", hp);
@@ -32,15 +31,18 @@ int main()
     scanf("%d", &number);
     if (number > answer)
     {
+      counter++;
       printf("Too high!\n");
     }
     else if (number < answer)
     {
+      counter++;
       printf("Too low!\n");
     }
     else
     {
-      printf("CORRECT!\n");
+      counter++;
+      printf("CORRECT!\nYou found the answer with %i tries!\n", counter);
       return 0;
     }
   }
