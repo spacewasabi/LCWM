@@ -5,17 +5,33 @@ Learn C With Me
 ## What is this
 
 A repo where I will put source code from my C exercises.
-Most comments / explanations are in french (since I'm learning from a french tutorial).
+Most comments / explanations are in french.
+I'll probably translate everything later.
 
 ## Lessons
+
+### Lesson 1
 
 - hello : including libraries and calling functions
 - variable : declaring variables
 - args : how to ask the user for an input
+
+### Lesson 2
+
 - calc : how to do quick maths
 - io_calc : same as above but with user input
 - short_calc : how to to quicker maths
 - math : using the math library to do even quicker maths
+
+### Lesson 3
+
+- bool : declaring booleans (since they aren't implemented by default)
+- if : running code when a condition has been respected
+- switch : an if equivalent
+
+### Lesson 4
+
+- while & do_while : basic loops
 
 ## Tools
 
