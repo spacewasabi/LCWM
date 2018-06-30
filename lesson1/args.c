@@ -23,10 +23,15 @@
 int main(int argc, char *argv[])
 {
   int age = 0; // On initialise la variable à 0
+  int retval;  // Used to inspect the return value of functions
 
   printf("Quel age avez-vous ? ");
   scanf("%d", &age); // On demande d'entrer l'âge avec scanf
-  printf("Ah ! Vous avez donc %d ans !\n\n", age);
-
+  if (retval == 1)
+    printf("Ah ! Vous avez donc %d ans !\n\n", age);
+  else {
+    fprintf(stderr, "scanf() returned %d, meaning that something went wrong.\n", retval);
+    exit(-1);
+  }
   return 0;
 }
