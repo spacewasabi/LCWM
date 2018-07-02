@@ -38,6 +38,14 @@ I'll probably translate everything later.
 
 - How to organize our C programs (one file)
 
+### Lesson 6
+
+- **betterPrint** : How to configure printf()
+
+### Lesson 7
+
+- **dataTypes** : Lesson on the difference between primitive and complex data types.
+
 ## Exercises
 
 - **plusOrMinus** : using what have been learned from lessons 1 to 4.

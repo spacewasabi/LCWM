@@ -1,5 +1,9 @@
 /**
  * Exercice sur les conversions de températures
+ * 
+ * Cette lesson montre comment configurer un printf pour n'afficher qu'un certain nombre
+ * de chiffres avant et après la virgule d'un float.
+ * 
  * Voir : https://github.com/Eidonko/ccourse/blob/master/ccourse.pdf && 
  */
 
