@@ -62,7 +62,7 @@ I'll probably translate everything later.
 
 ## Alternative
 
-- text-editor : [vim](https://www.vim.org/) (++) / [emacs](https://www.gnu.org/software/emacs/) / [nano](https://www.nano-editor.org/)
+- text-editor : [vim](https://www.vim.org/) (++) / [emacs](https://www.gnu.org/software/emacs/) (-) / [nano](https://www.nano-editor.org/) (--)
 - compiler : [gcc](https://gcc.gnu.org/)
 
 ## Courses & tutorials used
