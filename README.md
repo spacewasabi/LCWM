@@ -48,7 +48,12 @@ I'll probably translate everything later.
 
 ## Exercises
 
-- **plusOrMinus** : using what have been learned from lessons 1 to 4.
+- **higherOrLower** : using what have been learned from lessons 1 to 4.
+
+## Todo
+
+- Eidon's task
+- Translation
 
 ## Tools
 
