@@ -1,3 +1,6 @@
+# Over complicated gitignore example.
+# However, all those are to be ignored if we work with C.
+
 # Prerequisites
 *.d
 
