@@ -18,13 +18,13 @@
  * assigned to our variable (even a secret password!).
  */
 
-int main(int argc, char *argv[]) // int main() equivalent
+int main(int argc, char *argv[])  // int main() equivalent
 {
-  int hp;                  // Declaring a simple variable
-  int lvl, mana;          // Declaring multiple variables
-  hp = 10;                 // Set the variable's value
-  int startingTown = "town1";        // Setting the value immediately while declaring the variable (best practice)
-  const int INITIAL_HP = 10; // Constantes
+  int hp;                         // Declaring a simple variable
+  int lvl, mana;                  // Declaring multiple variables
+  hp = 10;                        // Set the variable's value
+  int startingTown = "town1";     // Setting the value immediately while declaring the variable (best practice)
+  const int INITIAL_HP = 10;      // Constantes
   const int INITIAL_LVL = 1;
   lvl = INITIAL_LVL;
   /**

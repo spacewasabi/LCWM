@@ -16,5 +16,5 @@
 int main()
 {
   printf("Hello World!\n"); // Display "Hello World" then breaks the line.
-  return 0;          // Allows us to exit the program.
+  return 0;                 // Allows us to exit the program.
 }
