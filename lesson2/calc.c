@@ -1,55 +1,49 @@
 /**
- * Un ordinateur est une machine à calcul basique (à une plus grosse échelle qu'une calculatrice cela-dit).
- * Les calculs qu'un ordinateur se limitent aux suivants :
- *  - addition 
- *  - soustraction
- *  - multiplication 
- *  - division 
- *  - modulo
- * A partir du moment où l'on cherche à effectuer des calculs plus compliqués, 
- * il va nous falloir les programmer (expliquer à la machine comment faire).
+ * Computers are big calculating machines.
+ * A computer can do the following :
+ *  - adding
+ *  - subbing
+ *  - multiplying
+ *  - dividing
+ *  - modulus operations
+ * For more complex operations, we'll have to program them.
+ * Those are called "algorithms".
  */
 #include <stdio.h>
 #include <stdlib.h>
 
 int main()
 {
-  int resultat = 0;
-  resultat = 5 + 5; // Addition
-  printf("5 + 5 = %d\n", resultat);
+  int result = 0;
+  result = 5 + 5; 
+  printf("5 + 5 = %d\n", result);
   /**
-   * On peut également calculer en utilisant des variables,
-   * l'ordinateur comprends celles-ci comme des références à une valeur enregistrée en mémoire.
+   * Variables can also be used in our calculations
    */
-  resultat = resultat - 5; // Soustraction
-  printf("10 - 5 = %d\n", resultat);
-  resultat = resultat * resultat;
-  printf("5 x 5 = %d\n", resultat);
+  result = result - 5; 
+  printf("10 - 5 = %d\n", result);
+  result = result * result;
+  printf("5 x 5 = %d\n", result);
   /**
-   * Les divisions et les modulos fonctionnent d'une manière un peu particulière.
-   * En effet, quand il voit des entiers, l'ordinateur fait une division de nombres entiers
-   * (aussi appelée « division euclidienne »). Cela veut dire qu'il tronque le résultat, 
-   * il ne garde que la partie entière.
+   * Divides and modulus operations work a bit differently.
+   * If the program's input are integer, it will truncate the result to return an
+   * integer (this is called an "euclidic division").
    */
-  resultat = 5 / 2;
-  printf("Pour un ordinateur : 5 / 2 = %d\n", resultat);
+  result = 5 / 2;
+  printf("For a computer : 5 / 2 = %d\n", result);
   /**
-   * Du coup, pour avoir un résultat exact, on préfèrera transformer
-   * nos entiers et nos variables en décimaux / doubles.
-   * En effet, lorsqu'un ordinateur fait une division, en réalité il répond à la question suivante :
-   * "combien de fois il y a t'il x dans y".
+   * If we want an exact result, we'll use "doubles".
+   * For computer, when we do x / y, he actually understands :
+   * "how many y are in x?"
    */
-  double resultat2 = 0.0;
-  resultat2 = 5.0 / 2.0;
-  printf("Du coup pour calculer 5 / 2 on fait 5.0 / 2.0 = %lf\n", resultat2);
+  double result2 = 0.0;
+  result2 = 5.0 / 2.0;
+  printf("Instead of 5 / 2 we'll ask for 5.0 / 2.0 = %lf\n", result2);
   /**
-   * Le modulo correspond au reste d'une division.
-   * Commu vu plus tôt : 
-   * dans une division, l'ordinateur dit combien de fois 2 se trouve dans 5
-   * il renvoie alors 2, le modulo renvoie le 1 qui manque.
+   * Modulus returns the remainder of the division
    */
-  int resultat3 = 0;
-  resultat3 = 5 % 2;
-  printf("Le modulo de 5/2 = %d\n", resultat3);
+  int result3 = 0;
+  result3 = 5 % 2;
+  printf("5/2 's modulus = %d\n", result3);
   return 0;
 }

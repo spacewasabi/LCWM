@@ -1,49 +1,49 @@
 /**
- * Avec le cours précédent, on peut déjà programmer un script 
- * de calcul relativement simple.
+ * Simple input / output calculator program.
  */
 #include <stdio.h>
 #include <stdlib.h>
 
 int main(int argc, char *argv[])
 {
-  int resultat = 0, nombre1 = 0, nombre2 = 0;
+  int result = 0, number1 = 0, number2 = 0;
 
-  // L'utilisateur rentre les deux paramètres
+  // Two parameters
 
-  printf("Veuillez saisir le premier paramètre : ");
-  scanf("%d", &nombre1);
-  printf("Maintenant, veuillez saisir le second : ");
-  scanf("%d", &nombre2);
+  printf("Choose a number : ");
+  scanf("%d", &number1);
+  printf("Now, choose another one : ");
+  scanf("%d", &number2);
 
-  resultat = nombre1 + nombre2;
-  printf("%d + %d = %d\n", nombre1, nombre2, resultat);
+  result = number1 + number2;
+  printf("%d + %d = %d\n", number1, number2, result);
 
   /**
+   * Other examples using the same code structure as above :
    * 
-   * printf("Veuillez saisir le premier paramètre : ");
-   * scanf("%d", &nombre1);
-   * printf("Maintenant, veuillez saisir le second : ");
-   * scanf("%d", &nombre2);
+   * printf("Choose a number : ");
+   * scanf("%d", &number1);
+   * printf("Now, choose another one : ");
+   * scanf("%d", &number2);
    * 
-   * resultat = nombre1 - nombre2;
-   * printf("%d - %d = %d\n", nombre1, nombre2, resultat);
+   * result = number1 - number2;
+   * printf("%d - %d = %d\n", number1, number2, result);
    * 
-   * printf("Veuillez saisir le premier paramètre : ");
-   * scanf("%d", &nombre1);
-   * printf("Maintenant, veuillez saisir le second : ");
-   * scanf("%d", &nombre2);
+   * printf("Choose a number : ");
+   * scanf("%d", &number1);
+   * printf("Now, choose another one : ");
+   * scanf("%d", &number2);
    *
-   * resultat = nombre1 * nombre2;
-   * printf("%d x %d = %d\n", nombre1, nombre2, resultat);
+   * result = number1 * number2;
+   * printf("%d x %d = %d\n", number1, number2, result);
    * 
-   * printf("Veuillez saisir le premier paramètre : ");
-   * scanf("%d", &nombre1);
-   * printf("Maintenant, veuillez saisir le second : ");
-   * scanf("%d", &nombre2);
+   * printf("Choose a number : ");
+   * scanf("%d", &number1);
+   * printf("Now, choose another one : ");
+   * scanf("%d", &number2);
    * 
-   * resultat = nombre1 / nombre2;
-   * printf("%d +/%d = %d\n", nombre1, nombre2, resultat);
+   * result = number1 / number2;
+   * printf("%d +/%d = %d\n", number1, number2, result);
    * 
    */
 

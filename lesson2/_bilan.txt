@@ -1,8 +1,9 @@
-L'ordinateur est donc une grosse machine à calcul.
-Les calculs sont simples : additions, soustractions, multiplications, divisions, restes (ou modulo)...
-Les calculs de base peuvent être écris de manière abrégées et ainsi ne pas avoir à redéfinir de variable.
-Les calculs plus compliqués (aussi appelés fonctions ou algorithmes) doivent être "programmés", 
-c'est-à-dire que l'on doit expliquer à la machine les différentes étapes nécessaires à son calcul en utilisant les méthodes de base.
+Computers are big calculators.
+They can do basic tasks : adding, substracting, multiply, dividing and remainder calculation.
+Algorithms, being complex tasks, need to be programmed.
+It basically means that we, as developers, have to explain to the machine how to do them
+using the basic tasks they know how to do.
 
-Cependant il n'est pas nécessaire de réinventer la roue à chaque fois.
-On peut importer des librairies qui sont des ensembles de fonctions que l'on peut réutiliser sans avoir à les redéfinir.
+That being said, once we explained to the computer how to do a complex task, we don't need to teach him twice,
+we can just tell him to remember what we taught it earlier and we can achieve this by simply
+including the library we (or someone else) wrote and calling the right method.

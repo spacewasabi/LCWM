@@ -1,20 +1,19 @@
 /**
- * En C, comme dans d'autres langages, permet de réduire la taille des calculs.
- * Les écritures raccourcies permettent d'avoir un code plus court,
- * plus lisible, mais pas forcément plus rapide à executer.  
+ * C offers the possibility to optimise our code by writing less for the exact same use.
+ * It's not necessarily faster to execute but it's shorter and easier to read.
  */
 #include <stdio.h>
 #include <stdlib.h>
 
 int main()
 {
-  int nombre = 2;
+  int number = 2;
 
-  nombre += 4; // nombre vaut 6...
-  nombre -= 3; // ... nombre vaut maintenant 3
-  nombre *= 5; // ... nombre vaut 15
-  nombre /= 3; // ... nombre vaut 5
-  nombre %= 3; // ... nombre vaut 2 (car 5 = 1 * 3 + 2)
-  printf("La valeur finale de nombre est %d\n", nombre);
+  number += 4; // number = 6...
+  number -= 3; // ... number = 3
+  number *= 5; // ... number = 15
+  number /= 3; // ... number = 5
+  number %= 3; // ... number = 2 (because 5 = 1 * 3 + 2)
+  printf("Number's final value is %d\n", number);
   return 0;
 }
