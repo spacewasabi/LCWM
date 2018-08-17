@@ -40,7 +40,7 @@ int main(int argc, char *argv[])  // int main() equivalent
    * % allows to call a variable in a printf
    * %d will be replaced with a digital variable.
    * %c will be replaced with an alphadigital value (a-A ... z-Z)
-   * %s sera remplacé par une variable contenant une chaîne de charactère
+   * %s will be replaced with a string
    */
   printf("You're a lvl %d %s \n You have %dHP and fight with a %s and a %s", lvl, job, hp, RightHandEquipment, LeftHandEquipment);
 
